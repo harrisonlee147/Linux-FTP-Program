@@ -1,0 +1,32 @@
+Script started on Fri 06 Dec 2013 02:44:49 PM PST
+~
+hlee088@well $ cd cs100wh[K[K/hw/hw9
+~/cs100/hw/hw9
+hlee088@well $ ls
+[00m[00;32mMakefile[00m*  [00;32mmtClient.cpp[00m*  [00mmtClient.log[00m  [00;32mmtServer.cpp[00m*  [00mmtServer.log[00m
+[m~/cs100/hw/hw9
+hlee088@well $ make clean
+rm -f *.o *.out mtServer mtClient Files.txt
+~/cs100/hw/hw9
+hlee088@well $ make
+g++ -ggdb -pthread -o mtServer mtServer.cpp
+g++ -ggdb -pthread -o mtClient mtClient.cpp
+~/cs100/hw/hw9
+hlee088@well $ mtServer
+Waiting for client to connect...
+Client #0 connected!
+Client #1 connected!
+Client #2 connected!
+Client #3 connected!
+Client #4 connected!
+Client #5 connected!
+Client #6 connected!
+Client #7 connected!
+Client #8 connected!
+Client #9 connected!
+
+Server exiting...
+~/cs100/hw/hw9
+hlee088@well $ exit
+
+Script done on Fri 06 Dec 2013 02:46:10 PM PST

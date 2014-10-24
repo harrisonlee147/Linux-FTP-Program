@@ -1,0 +1,136 @@
+Script started on Fri 06 Dec 2013 02:45:00 PM PST
+~
+hlee088@well $ ls
+[00m[00;34mcs010[00m/  [00;34mcs100[00m/  [00;34mcs12[00m/  [00;34mcs14[00m/  [00;34mcs61[00m/  [00;34mDesktop[00m/  [00;34mDownloads[00m/  [00;34mPics[00m/  [00;34mWINDOWS[00m/
+[m~
+hlee088@well $ cd cs100/wh[Khw[K[Kh[Khw[K[K[Khw/hw9
+~/cs100/hw/hw9
+hlee088@well $ ls
+[00m[00;32mMakefile[00m*  [00;32mmtClient.cpp[00m*  [00;32mmtServer[00m*      [00mmtServer.log[00m
+[00;32mmtClient[00m*  [00mmtClient.log[00m   [00;32mmtServer.cpp[00m*
+[m~/cs100/hw/hw9
+hlee088@well $ mtClient well /etc
+Creating threads...
+Making Thread #0
+Making Thread #1
+Making Thread #2
+Making Thread #3
+Making Thread #4
+Making Thread #5
+Making Thread #6
+Making Thread #7
+Making Thread #8
+Making Thread #9
+Joining threads now
+Finished copying /etc
+
+Client #0 exiting...
+Finished copying /etc
+
+Client #1 exiting...
+Finished copying /etc
+
+Client #3 exiting...
+Finished copying /etc
+
+Client #2 exiting...
+Finished copying /etc
+
+Client #4 exiting...
+Finished copying /etc
+
+Client #5 exiting...
+Finished copying /etc
+
+Client #6 exiting...
+Finished copying /etc
+
+Client #7 exiting...
+Finished copying /etc
+
+Client #8 exiting...
+Finished copying /etc
+
+Client #9 exiting...
+~/cs100/hw/hw9
+hlee088@well $ ls
+[00m[00mFiles.txt[00m      [00mmtClient.log[00m   [00;34mThread0files[00m/  [00;34mThread4files[00m/  [00;34mThread8files[00m/
+[00;32mMakefile[00m*      [00;32mmtServer[00m*      [00;34mThread1files[00m/  [00;34mThread5files[00m/  [00;34mThread9files[00m/
+[00;32mmtClient[00m*      [00;32mmtServer.cpp[00m*  [00;34mThread2files[00m/  [00;34mThread6files[00m/
+[00;32mmtClient.cpp[00m*  [00mmtServer.log[00m   [00;34mThread3files[00m/  [00;34mThread7files[00m/
+[m~/cs100/hw/hw9
+hlee088@well $ cd Thread8files
+~/cs100/hw/hw9/Thread8files
+hlee088@well $ ls
+[00m[00;34metc[00m/
+[m~/cs100/hw/hw9/Thread8files
+hlee088@well $ cd etc
+~/cs100/hw/hw9/Thread8files/etc
+hlee088@well $ ls
+[00m[00ma2ps.cfg[00m                 [00miptables.rules.20130511[00m  [00mprelink.cache[00m
+[00ma2ps-site.cfg[00m            [00missue[00m                    [00mprelink.conf[00m
+[00madjtime[00m                  [00missue.net[00m                [00mprintcap[00m
+[00maliases[00m                  [00mjwhois.conf[00m              [00mprofile[00m
+[00maliases.db[00m               [00mkderc[00m                    [00mprotocols[00m
+[00manacrontab[00m               [00mkdump.conf[00m               [00mquotagrpadmins[00m
+[00mant.conf[00m                 [00mkismet.conf[00m              [00mquotatab[00m
+[00mat.deny[00m                  [00mkismet_drone.conf[00m        [00mreader.conf[00m
+[00mautofs_ldap_auth.conf[00m    [00mkrb5.conf[00m                [00mredhat-release[00m
+[00mauto.master[00m              [00mksysguarddrc[00m             [00mrequest-key.conf[00m
+[00mauto.misc[00m                [00mldap.conf[00m                [00mresolv.conf[00m
+[00mauto.net[00m                 [00mld.so.cache[00m              [00mrpc[00m
+[00mauto.smb[00m                 [00mld.so.conf[00m               [00mrsyslog.conf[00m
+[00mbashrc[00m                   [00mlftp.conf[00m                [00mrwtab[00m
+[00mcapi.conf[00m                [00mlibaudit.conf[00m            [00mscreenrc[00m
+[00mcdrecord.conf[00m            [00mlibuser.conf[00m             [00mscrollkeeper.conf[00m
+[00mconman.conf[00m              [00mlisarc[00m                   [00mscsi_id.config[00m
+[00mcron.deny[00m                [00mlocaltime[00m                [00msecuretty[00m
+[00mcrontab[00m                  [00mlogin.defs[00m               [00msensors.conf[00m
+[00mcsh.cshrc[00m                [00mlogrotate.conf[00m           [00mservices[00m
+[00mcsh.login[00m                [00mltrace.conf[00m              [00msestatus.conf[00m
+[00mdhcp6c.conf[00m              [00mlynx.cfg[00m                 [00mshadow[00m
+[00mDIR_COLORS[00m               [00mlynx-site.cfg[00m            [00mshadow-[00m
+[00mDIR_COLORS.xterm[00m         [00mmailcap[00m                  [00mshells[00m
+[00mdnsmasq.conf[00m             [00mmail.rc[00m                  [00mslrn.rc[00m
+[00mdumpdates[00m                [00mman.config[00m               [00msmartd.conf[00m
+[00menscript.cfg[00m             [00mmcelog.conf[00m              [00msmi.conf[00m
+[00menvironment[00m              [00mmdadm.conf[00m               [00msudoers[00m
+[00mesd.conf[00m                 [00mmime.types[00m               [00msysctl.conf[00m
+[00mexports[00m                  [00mminicom.users[00m            [00msyslog.conf[00m
+[00mfb.modes[00m                 [00mmke2fs.conf[00m              [00mtcsd.conf[00m
+[00mfilesystems[00m              [00mmodprobe.conf[00m            [00mtermcap[00m
+[00mfstab[00m                    [00mmotd[00m                     [00mtimidity.cfg[00m
+[00mgnome-vfs-mime-magic[00m     [00mmtab[00m                     [00mtux.mime.types[00m
+[00mgpm-root.conf[00m            [00mmtools.conf[00m              [00mupdatedb.conf[00m
+[00mgroup[00m                    [00mmultipath.conf[00m           [00mvimrc[00m
+[00mgroup-[00m                   [00mMuttrc[00m                   [00mvirc[00m
+[00mgshadow[00m                  [00mMuttrc.local[00m             [00mwarnquota.conf[00m
+[00mgshadow-[00m                 [00mnscd.conf[00m                [00mwebalizer.conf[00m
+[00mgssapi_mech.conf[00m         [00mnsswitch.conf[00m            [00mwgetrc[00m
+[00mhost.conf[00m                [00mntp.conf[00m                 [00mwvdial.conf[00m
+[00mhosts[00m                    [00modbc.ini[00m                 [00mxinetd.conf[00m
+[00mhosts.allow[00m              [00modbcinst.ini[00m             [00myp.conf[00m
+[00mhosts.deny[00m               [00moddjobd.conf[00m             [00myum.conf[00m
+[00midmapd.conf[00m              [00mopenalrc[00m                 [00mzlogin[00m
+[00minitlog.conf[00m             [00mpam_smb.conf[00m             [00mzlogout[00m
+[00minittab[00m                  [00mpasswd[00m                   [00mzprofile[00m
+[00minputrc[00m                  [00mpasswd-[00m                  [00mzshenv[00m
+[00miptables.orig[00m            [00mphp.ini[00m                  [00mzshrc[00m
+[00miptables.rules[00m           [00mpine.conf[00m
+[00miptables.rules.20121031[00m  [00mpinforc[00m
+[m~/cs100/hw/hw9/Thread8files/etc
+hlee088@well $ cd ..
+~/cs100/hw/hw9/Thread8files
+hlee088@well $ cd ..
+~/cs100/hw/hw9
+hlee088@well $ ls
+[00m[00mFiles.txt[00m      [00mmtClient.log[00m   [00;34mThread0files[00m/  [00;34mThread4files[00m/  [00;34mThread8files[00m/
+[00;32mMakefile[00m*      [00;32mmtServer[00m*      [00;34mThread1files[00m/  [00;34mThread5files[00m/  [00;34mThread9files[00m/
+[00;32mmtClient[00m*      [00;32mmtServer.cpp[00m*  [00;34mThread2files[00m/  [00;34mThread6files[00m/
+[00;32mmtClient.cpp[00m*  [00mmtServer.log[00m   [00;34mThread3files[00m/  [00;34mThread7files[00m/
+[m~/cs100/hw/hw9
+hlee088@well $ clear
+[H[2J~/cs100/hw/hw9
+hlee088@well $ exit
+
+Script done on Fri 06 Dec 2013 02:46:15 PM PST
