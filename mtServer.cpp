@@ -1,18 +1,10 @@
 /*
-* Course: CS 100 Fall 2013
-*
-* First Name: <Harrison>
-* Last Name: <Lee>
-* Username: <hlee088>
-* Email Address: <hlee088@ucr.edu>
-*
-* Assignment: <Homework #9>
-*
-* I hereby certify that the contents of this file represent
-* my own original individual work. Nowhere herein is there
-* code from any outside resources such as another individual,
-* a website, or publishings unless specifically designated as
-* permissible by the instructor or TA. */
+ Course: CS 100 Fall 2013
+
+ First Name: <Harrison>
+ Last Name: <Lee>
+ Assignment: <Homework #9>
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
